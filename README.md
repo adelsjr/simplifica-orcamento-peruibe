@@ -1,6 +1,6 @@
-# 🎯 Transparência Mais - Peruíbe
+# 🎯 Simplifica LOA - Peruíbe
 
-Este projeto é um portal interativo de dados para democratizar o acesso à informação sobre as despesas públicas da Prefeitura da Estância Balneária de Peruíbe.
+Este projeto é um portal interativo de dados para democratizar o acesso à informação sobre o orçamento público da Prefeitura da Estância Balneária de Peruíbe.
 
 Desenvolvido para ser uma ferramenta simples e visual, ele compara o orçamento planejado (Lei Orçamentária Anual - LOA) com o valor que é de fato gasto por cada órgão municipal, permitindo que qualquer cidadão acompanhe e fiscalize a execução do orçamento de forma clara e objetiva.
 
