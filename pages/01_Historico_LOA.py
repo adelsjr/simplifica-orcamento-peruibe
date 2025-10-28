@@ -6,7 +6,7 @@ import os
 
 st.set_page_config(page_title="Histórico LOA", layout="wide", page_icon="📅")
 
-st.title("📅 Análise Orçamentária: Receita vs. Despesa (2024-2026)")
+st.title("📅 Auditoria Cidadã Peruíbe")
 st.markdown("---")
 
 # --- Dados das Receitas Consolidado (Para Gráficos Históricos) ---
@@ -185,7 +185,7 @@ df_list = [df for df in df_list if not df.empty]
 # =========================================================================
 # SEÇÃO 1: ORÇAMENTO COM TRANSPARÊNCIA POPULAR (VERSÃO SIMPLIFICADA)
 # =========================================================================
-st.header("1. Orçamento Descomplicado: Transparência Popular")
+st.header("1. Orçamento Simplificado (LOA 2024-2026)")
 st.markdown("Apresentação resumida e simplificada das principais Receitas e Despesas do orçamento para fácil entendimento do cidadão.")
 
 # -------------------------------------------------------------
@@ -473,48 +473,3 @@ fig_linha_fonte.update_layout(xaxis=dict(tickmode='array', tickvals=df_receita_l
 fig_linha_fonte.update_traces(hovertemplate='Ano: %{x}<br>Fonte: %{customdata[0]}<br>Orçado: R$ %{y:.2f} Milhões', customdata=df_receita_long[['Tipo de Receita']])
 
 st.plotly_chart(fig_linha_fonte, use_container_width=True)
-
-# 3.3. Gráfico de Pizza (Composição)
-st.subheader("Composição da Receita Orçamentária por Fonte")
-
-col1, col2 = st.columns([1, 3])
-
-ano_selecionado_composicao = col1.selectbox(
-    "Selecione o Ano para ver a Composição:",
-    options=[2026, 2025, 2024],
-    index=0,
-    key='select_ano_composicao'
-)
-
-coluna_valor = f'{ano_selecionado_composicao} (R$)'
-df_pizza = RECEITA_COMPOSICAO[['Tipo de Receita', coluna_valor]].copy()
-df_pizza.columns = ['Tipo de Receita', 'Valor (R$)']
-df_pizza['Percentual'] = (df_pizza['Valor (R$)'] / df_pizza['Valor (R$)'].sum()) * 100
-
-fig_pizza = px.pie(
-    df_pizza,
-    values='Valor (R$)',
-    names='Tipo de Receita',
-    title=f'Composição da Receita Orçamentária (LOA {ano_selecionado_composicao})',
-    hole=.4
-)
-fig_pizza.update_traces(textinfo='percent+label', marker=dict(line=dict(color='#000000', width=1)))
-fig_pizza.update_layout(legend_title="Fontes de Receita")
-
-with col2:
-    st.plotly_chart(fig_pizza, use_container_width=True)
-
-
-# 3.4. Tabela Detalhada da Composição
-st.subheader(f"Tabela: Detalhamento da Composição da Receita ({ano_selecionado_composicao})")
-
-df_tabela_receita = df_pizza.copy()
-df_tabela_receita.columns = ['Tipo de Receita', 'Valor (R$)', 'Percentual']
-df_tabela_receita['Valor (R$)'] = df_tabela_receita['Valor (R$)'].map('R$ {:,.2f}'.format)
-df_tabela_receita['Percentual'] = df_tabela_receita['Percentual'].map('{:.2f}%'.format)
-
-st.dataframe(df_tabela_receita, use_container_width=True, hide_index=True)
-
-st.markdown("---")
-st.caption("Fonte: Tabela Demonstrativo da Receita e Despesa Resumida (Tabela II) dos Projetos de LOA.")
-st.warning("⚠️ Os dados de composição detalhada de 2024 e 2025 foram estimados para manter a consistência histórica. Recomenda-se a verificação contra os documentos originais.")

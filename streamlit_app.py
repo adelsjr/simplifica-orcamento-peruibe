@@ -8,14 +8,14 @@ import importlib.util
 # Este arquivo é o seu dashboard principal.
 
 # --- Configuração da Página ---
-st.set_page_config(page_title="Simplificando LOA PEruibe", layout="wide", page_icon="🎯")
+st.set_page_config(page_title="Auditoria Cidadã Peruíbe - Orçamento Simplificado", layout="wide", page_icon="🎯")
 
 # --- CONTEÚDO PRINCIPAL DO DASHBOARD ---
-st.title("Simplificando LOA Peruibe")
+st.title("Auditoria Cidadã Peruíbe - Orçamento Simplificado")
 
 # Frase de missão
 st.markdown("""
-O objetivo deste portal independente é levar mais transparência ao orçamento da cidade de Peruíbe, para que seus cidadãos possam entender, e **fiscalizar** e cobrar o poder público.
+O objetivo deste portal independente é simplificar o orçamento da cidade de Peruíbe, para que seus cidadãos possam entender, e **fiscalizar** e cobrar o poder público.
 """)
 
 # Aviso/Disclaimer em caixa de cor
