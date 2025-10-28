@@ -1,34 +1,40 @@
-"Codigo","Especificacao","Valor"
-"02.01.00","Chefia de Gabinete","10.852.900,00"
-"02.02.00","Secretaria de Assuntos Jurídicos","4.242.000,00"
-"02.03.00","Secretaria de Empregos, Indústria e Comércio","1.892.000,00"
-"02.04.00","Secretaria Municipal de Administração","11.551.513,00"
-"02.05.00","Secretaria Municipal da Fazenda","3.239.000,00"
-"02.06.00","Secretaria Municipal de Planejamento","6.236.260,00"
-"02.07.00","Secretaria Mun. Obras, Serviços e Infraestrutura Urbana","76.833.432,00"
-"02.08.00","Fundo Mun. Con. Serv. Prot. Defesa do Meio Ambiente","11.000,00"
-"02.09.00","Fundo Municipal de Desenvolvimento Agropecuário","12.000,00"
-"02.10.00","Secretaria Municipal de Saúde / Fundo Municipal de Saúde","122.356.595,00"
-"02.11.00","Secretaria Municipal de Educação","74.192.500,00"
-"02.12.00","Fundo de Manutenção e Desenv. da Educação Básica e de Valorização dos Profissionais da Educação - FUNDEB","56.414.000,00"
-"02.13.00","Secretaria Municipal de Assistência e Desenv. Social","6.770.500,00"
-"02.14.00","Fundo Municipal de Assistência Social","5.749.500,00"
-"02.15.00","Fundo Municipal dos Direitos da Criança e do Adolescente","629.500,00"
-"02.17.00","Fundo Municipal de Turismo  FUNTUR","92.000,00"
-"02.18.00","Fundo de Assistência à Cultura","10.000,00"
-"02.19.00","Fundo Municipal de Esportes - FUNMEL","10.000,00"
-"02.20.00","Secretaria Municipal de Defesa Social / Fundo Municipal de Trânsito","14.816.600,00"
-"02.21.00","Fundo Municipal de Habitação","10.000,00"
-"02.22.00","Fundo de Desenvolvimento da Cidade","65.000,00"
-"02.23.00","Fundo Municipal do Idoso","10.500,00"
-"02.24.00","Fundo do Bem Estar Animal","10.000,00"
-"02.25.00","Secretaria Municipal de Meio Ambiente e Agricultura","2.884.200,00"
-"02.26.00","Secretaria Municipal de Governo","102.000,00"
-"02.27.00","Fundo Mun. Saneam. Ambiental e Infraestrutura","2.603.000,00"
-"02.28.00","Secretaria Municipal de Finanças","19.823.000,00"
-"02.29.00","Secretaria Municipal de Turismo","13.441.000,00"
-"02.30.00","Secretaria Municipal de Cultura e Esportes","5.686.000,00"
-"02.31.00","Fundo Municipal de Interesses Difusos","10.000,00"
-"02.32.00","Fundo de Prev. Comb e Manut. Bombeiros","10.000,00"
-"02.33.00","Fundo Munic. de Economia Solidária","10.000,00"
-"02.99.00","Reserva de Contingência","1.470.000,00"
+Codigo,Especificacao,Valor
+01.00.00,Poder Legislativo,11186000.00
+01.01.00,Câmara Municipal,11186000.00
+02.00.00,Poder Executivo,453246000.00
+02.01.00,Chefia de Gabinete,10852900.00
+02.02.00,Secretaria de Assuntos Jurídicos,4242000.00
+02.03.00,Secretaria de Empregos, Indústria e Comércio,1892000.00
+02.04.00,Secretaria Municipal de Administração,11551513.00
+02.05.00,Secretaria Municipal da Fazenda,3239000.00
+02.06.00,Secretaria Municipal de Planejamento,6236260.00
+02.07.00,Secretaria Mun. Obras, Serviços e Infraestrutura Urbana,76833432.00
+02.08.00,Fundo Mun. Con. Serv. Prot. Defesa do Meio Ambiente,11000.00
+02.09.00,Fundo Municipal de Desenvolvimento Agropecuário,12000.00
+02.10.00,Secretaria Municipal de Saúde / Fundo Municipal de Saúde,122356595.00
+02.11.00,Secretaria Municipal de Educação,74192500.00
+02.12.00,Fundo de Manutenção e Desenv. da Educação Básica e de Valorização dos Profissionais da Educação - FUNDEB,56414000.00
+02.13.00,Secretaria Municipal de Assistência e Desenv. Social,6770500.00
+02.14.00,Fundo Municipal de Assistência Social,5749500.00
+02.15.00,Fundo Municipal dos Direitos da Criança e do Adolescente,629500.00
+02.17.00,Fundo Municipal de Turismo FUNTUR,92000.00
+02.18.00,Fundo de Assistência à Cultura,10000.00
+02.19.00,Fundo Municipal de Esportes - FUNMEL,10000.00
+02.20.00,Secretaria Mun. de Defesa Social / Fundo Mun. de Trânsito,14816600.00
+02.21.00,Fundo Municipal de Habitação,10000.00
+02.22.00,Fundo de Desenvolvimento da Cidade,65000.00
+02.23.00,Fundo Municipal do Idoso,10500.00
+02.24.00,Fundo do Bem Estar Animal,10000.00
+02.25.00,Secretaria Municipal de Meio Ambiente e Agricultura,2884200.00
+02.26.00,Secretaria Municipal de Governo,102000.00
+02.27.00,Fundo Mun. Saneam. Ambiental e Infraestrutura,2603000.00
+02.28.00,Secretaria Municipal de Finanças,19823000.00
+02.29.00,Secretaria Municipal de Turismo,13441000.00
+02.30.00,Secretaria Municipal de Cultura e Esportes,5686000.00
+02.31.00,Fundo Municipal de Interesses Difusos,10000.00
+02.32.00,Fundo de Prev. Comb. e Manut. Bombeiros,10000.00
+02.33.00,Fundo Munic. de Economia Solidária,10000.00
+02.99.00,Reserva de Contingência,1470000.00
+03.00.00,AUTARQUIA (PERUIBEPREV),38554000.00
+03.01.00,PERUIBE PREV,38554000.00
+TOTAL,TOTAL,491800000.00
