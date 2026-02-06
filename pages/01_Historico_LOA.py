@@ -105,29 +105,29 @@ DADOS_POPULAR_2025 = {
 # LOA 2026 - Total: R$ 621.832.000,00
 DADOS_POPULAR_2026 = {
     "RECEITAS": {
-        "Total de Receitas": 621832000.00,
+        "Total de Receitas": 626861000.00,  # Valor Total Estimado 
         "--- RECEITAS CORRENTES PRÓPRIAS ---": None,
-        "IPTU (Imposto sobre a Propriedade)": 80000000.00,
-        "ISS (Imposto sobre Serviços)": 68000000.00,
-        "ITBI (Imposto Transmissão de Bens)": 9500000.00,
-        "Outras Receitas Próprias": 70000000.00,
+        "IPTU (Imposto sobre a Propriedade)": 101450000.00, # IPTU Total [cite: 11]
+        "ISS (Imposto sobre Serviços)": 52280000.00, # ISSQN Total [cite: 12]
+        "ITBI (Imposto Transmissão de Bens)": 13503000.00, # ITBI Total [cite: 11]
+        "Outras Receitas Próprias": 44363009.23, # Outros impostos/taxas [cite: 11]
         "--- TRANSFERÊNCIAS DE RECURSOS ---": None,
-        "ICMS (Imposto sobre Circulação)": 130000000.00,
-        "FPM (Fundo de Participação dos Municípios)": 100000000.00,
-        "FUNDEB (Educação Básica)": 90000000.00,
-        "SUS (Sistema Único de Saúde)": 40000000.00,
-        "Demais Transferências": 23000000.00,
+        "ICMS (Imposto sobre Circulação)": 128000000.00, # Cota-parte ICMS [cite: 15]
+        "FPM (Fundo de Participação dos Municípios)": 98000000.00, # Cota-parte FPM [cite: 15]
+        "FUNDEB (Educação Básica)": 73200000.00, # Transf. FUNDEB [cite: 15]
+        "SUS (Sistema Único de Saúde)": 40594910.00, # Convênios Saúde Estado [cite: 17]
+        "Demais Transferências": 30245080.77, # Outras transferências [cite: 11, 15]
         "--- RECEITAS DE CAPITAL ---": None,
-        "Transferências de Capital e Outras": 10000000.00,
+        "Transferências de Capital e Outras": 46224406.00, # Receitas de Capital [cite: 11]
     },
     "DESPESAS": {
-        "Total de Despesas": 621832000.00,
-        "SAÚDE (Função 10)": 174796510.00,
-        "EDUCAÇÃO (Função 12)": 143767115.00,
-        "ADMINISTRAÇÃO (Função 04)": 66061210.00,
-        "SEGURANÇA PÚBLICA (Função 06)": 12221000.00,
-        "ASSISTÊNCIA SOCIAL (Função 08)": 14763179.00,
-        "Outras Despesas (Dívida, Urbanismo, etc)": 210222986.00
+        "Total de Despesas": 626861000.00, # Valor Total Fixado 
+        "SAÚDE (Função 10)": 174796510.00, # Sec. Saúde 
+        "EDUCAÇÃO (Função 12)": 162657200.00, # Educação + FUNDEB 
+        "ADMINISTRAÇÃO (Função 04)": 13035000.00, # Sec. Administração 
+        "SEGURANÇA PÚBLICA (Função 06)": 21966000.00, # Sec. Segurança 
+        "ASSISTÊNCIA SOCIAL (Função 08)": 13978218.00, # Sec. Assistência + Fundos 
+        "Outras Despesas (Dívida, Urbanismo, etc)": 240428072.00 # Saldo restante (Obras, Câmara, etc)
     }
 }
 

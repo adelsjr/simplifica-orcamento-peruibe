@@ -4,11 +4,11 @@ Codigo,Especificacao,Valor
 02.00.00,Poder Executivo,445041000.00
 02.01.00,Chefia de Gabinete,11149800.00
 02.02.00,Secretaria de Assuntos Jurídicos,4449000.00
-02.03.00,Secretaria de Empregos, Indústria e Comércio,1934000.00
+02.03.00,Secretaria de Empregos Indústria e Comércio,1934000.00
 02.04.00,Secretaria Municipal de Administração,11685000.00
 02.05.00,Secretaria Municipal da Fazenda,3210000.00
 02.06.00,Secretaria Municipal de Planejamento,5174000.00
-02.07.00,Secretaria Mun. Obras, Serviços e Infraestrutura Urbana,62844000.00
+02.07.00,Secretaria Mun. Obras Serviços e Infraestrutura Urbana,62844000.00
 02.08.00,Fundo Mun. Con. Serv. Prot. Defesa do Meio Ambiente,11000.00
 02.09.00,Fundo Municipal de Desenvolvimento Agropecuário,11000.00
 02.10.00,Secretaria Municipal de Saúde / Fundo Municipal de Saúde,124031140.00
@@ -30,7 +30,8 @@ Codigo,Especificacao,Valor
 02.27.00,Fundo Mun. Saneam. Ambiental e Infraestrutura,2823000.00
 02.28.00,Secretaria Municipal de Finanças,23115500.00
 02.29.00,Secretaria Municipal de Turismo,15610000.00
-02.30.00,Secretaria Municipal de Cultura e Esportes,5916000.00
+02.30.00,Secretaria Municipal de Cultura,2403000.00
+02.30.10,Secretaria Municipal de Esportes,3533000.00
 02.31.00,Fundo Municipal de Interesses Difusos,1105000.00
 02.32.00,Fundo de Prev. Comb. e Manut. Bombeiros,10000.00
 02.33.00,Fundo Munic. de Economia Solidária,10000.00
